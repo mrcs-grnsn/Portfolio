@@ -31,16 +31,42 @@ a{
     margin-top: 25px;
 }
 
+#logga{
+
+}
+
+#logga :hover{
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+a:visited {
+    text-decoration: none;
+  }
+
+a:hover {
+    text-decoration: none;
+  }
+
 #container{
     background-color: aquamarine;
     padding-bottom: 25px;
+    
 }
 
 #container2{
-    background-color: rgb(18, 218, 218);
+    background-color: violet;
     width: 100%;
     padding-bottom: 25px;
-    margin:0 px;
+    
+        
+}
+
+#test{
+    background-color: rgb(228, 228, 228);
 }
 
 #ruta{
@@ -61,4 +87,8 @@ a{
 #ruta-clam-rubrik{
     background-color: tomato;
     margin-top: 25px;
+}
+
+#bilder{
+    height: 300px;
 }
