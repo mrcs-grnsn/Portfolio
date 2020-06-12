@@ -4,11 +4,7 @@
 }
 
 #body{
-    background-color: azure;
-}
-
-header {
-    height: 100%;
+    background-color: rgb(245, 245, 245);
 }
 
 h1, h2, h3{
@@ -21,18 +17,22 @@ a{
 
 #header_ruta{
     background-color: whitesmoke;
-    box-shadow: 0px 2px 10px gray;
+    
     padding: 0px;
     padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 
 #menyrad{
-    margin-top: 25px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    box-shadow: 0px 2px 10px gray;
 }
 
 #logga{
-
+ background-color: none;
 }
 
 #logga :hover{
@@ -47,26 +47,29 @@ a:visited {
     text-decoration: none;
   }
 
-a:hover {
-    text-decoration: none;
-  }
 
 #container{
-    background-color: aquamarine;
+   /* background-color: aquamarine;*/
     padding-bottom: 25px;
     
 }
 
+#container_start{
+    /*background-color: aquamarine;*/
+    padding-bottom: 25px;
+    width: 70%;
+}
+
 #container2{
-    background-color: violet;
+    /*background-color: violet;*/
     width: 100%;
     padding-bottom: 25px;
     
         
 }
 
-#test{
-    background-color: rgb(228, 228, 228);
+#container2bakgrund{
+    background-color: rgb(213, 220, 223);
 }
 
 #ruta{
@@ -81,14 +84,39 @@ a:hover {
 }
 
 #ruta-clam{
-    background-color: tomato;
+    background-color: none;
+    
+}
+
+#ruta_text{
+    margin: 4%;
+    margin-bottom: 0%;
+    background-color: rgb(255, 255, 255);
+    height: 300px;
+}    
+
+#ruta_bild{
+    margin: 4%;
+    margin-bottom: 0%;
+    background-color: none;
+    height: 300px;
+}
+
+#ruta_bild :hover{
+    cursor: pointer;
 }
 
 #ruta-clam-rubrik{
-    background-color: tomato;
+    background-color: none;
     margin-top: 25px;
 }
 
 #bilder{
+    height: 220px;
+    /*box-shadow: 0px 2px 10px gray;*/
+}
+
+#bilder1{
     height: 300px;
+    /*box-shadow: 0px 2px 10px gray;*/
 }
