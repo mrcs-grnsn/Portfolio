@@ -43,7 +43,7 @@ a{
 #menyrad{
     margin-top: 0px;
     margin-bottom: 25px;
-    box-shadow: 0px 2px 10px gray;
+    box-shadow: none
 }
 
 #logga{
@@ -54,11 +54,11 @@ a{
     cursor: pointer;
 }
 
-a:link {
+a, h1, h2:link {
     text-decoration: rgb(22, 22, 22);
   }
   
-a:visited {
+a, h1, h2:visited {
     text-decoration: rgb(22, 22, 22);
   }
 
@@ -151,4 +151,23 @@ a:visited {
 #bilder1{
     height: 300px;
     /*box-shadow: 0px 2px 10px gray;*/
+}
+
+#bild_sr{
+    height: 700px;
+    width: 1200px;
+}
+
+#pilkanpp{
+    background-color: salmon;
+}
+
+#SR{
+    background-color: rgb(65, 65, 65);
+    
+}
+
+.modal-dialog{
+    margin: 0;
+    max-width: 1000px;
 }
