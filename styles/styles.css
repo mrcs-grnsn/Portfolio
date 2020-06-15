@@ -23,6 +23,16 @@ a{
     margin-bottom: 0px;
 }
 
+#header_ruta :visited{
+    color: rgb(22, 22, 22);
+}
+
+#header_ruta :link{
+    text-decoration: none;
+}
+#header_ruta :hover{
+    text-decoration: none;
+}
 #header_ruta_start{
     background-color: whitesmoke;
     padding: 0px;
@@ -54,13 +64,6 @@ a{
     cursor: pointer;
 }
 
-a, h1, h2:link {
-    text-decoration: rgb(22, 22, 22);
-  }
-  
-a, h1, h2:visited {
-    text-decoration: rgb(22, 22, 22);
-  }
 
 
 #container{
@@ -134,6 +137,11 @@ a, h1, h2:visited {
     margin: 25px;
     background-color: none;
 }
+
+#ruta_bild_fktr :hover{
+    cursor: pointer;
+}
+
 #ruta_bild :hover{
     cursor: pointer;
 }
@@ -141,6 +149,10 @@ a, h1, h2:visited {
 #ruta-clam-rubrik{
     background-color: none;
     margin-top: 25px;
+}
+
+#ruta_bild_persona :hover{
+    cursor: xl;
 }
 
 #bilder{
@@ -158,6 +170,10 @@ a, h1, h2:visited {
     width: 1200px;
 }
 
+#bilder_sd{
+    max-width: 100%;
+}
+
 #pilkanpp{
     background-color: salmon;
 }
@@ -168,6 +184,29 @@ a, h1, h2:visited {
 }
 
 .modal-dialog{
-    margin: 0;
+    margin-top: 4rem;
     max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-body{
+    padding: 0;
+}
+
+#b_C_P :hover{
+    cursor: pointer;
+}
+
+
+#pp_bs{
+    max-width: 400px;
+}
+
+#pp_bs2{
+    max-width: 100%;
+}
+
+#test{
+    width: 1000px !important;
 }
