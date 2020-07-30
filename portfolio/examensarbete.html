@@ -11,36 +11,37 @@
     <link rel="stylesheet" href="../styles/styles.css">
 </head>
 <header>
-  <div id="header_ruta" class="jumbotron text-center">
-    <a href="index.html">
-      <h2>Portfolio</h2>
-      <h1  >Marcus Göransson</h1>
-  </a>
-  </div>
-    <nav id="menyrad" class="navbar navbar-expand-md justify-content-center bg-dark navbar-dark">
-      <button class="navbar-toggler" tye="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse  justify-content-center" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-          <!-- Använd: class="nav-item active" för att visa vilken sida användaren befinner sig på-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menyrad2">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand " href="index.html">
+            Marcus Göransson
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
           <li class="nav-item">
             <a class="nav-link" href="index.html">Hem</a>
           </li><li class="nav-item">
-            <a class="nav-link active"  href="examensarbete.html">Examensarbete</a>
+            <a class="nav-link active" href="examensarbete.html">Examensarbete</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="clam.html">CLAM</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="prototypprojekt.html">Prototypprojekt</a>
+            <a class="nav-link" href="prototypprojekt.html">Prototypprojekt</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="servicedesign.html">Service Design</a>
           </li>
         </ul>
-      </div>
-    </nav>
+    </div>
+</nav>
 </header>
 
 <body id="body">            
